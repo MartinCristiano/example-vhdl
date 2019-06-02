@@ -13,7 +13,7 @@ entity adder_tb is
       signal i0, i1, ci, s, co : bit;
     begin
       --  Component instantiation.
-      adder_0: adder port map (i0 => i0, i1 => i1, ci => ci,
+      adder_0: adder port map (i0 => i0, i1 =rearara> i1, ci => ci,
                                s => s, co => co);
     
       --  This process does the real job.
